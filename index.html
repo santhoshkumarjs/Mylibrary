@@ -1,0 +1,42 @@
+ <!--
+
+Where to use:
+•	use .html() to operate on containers having html elements.
+•	use .text() to modify text of elements usually having separate open and closing tags
+
+Where not to use:
+•	.text() method cannot be used on form inputs or scripts.
+o	.val() for input or textarea elements.
+o	.html() for value of a script element.
+•	Picking up html content from .text() will convert the html tags into html entities.
+
+Difference:
+•	.text() can be used in both XML and HTML documents.
+•	.html() is only for html documents.
+
+-->
+
+ <html>
+ <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ </head>
+ <body>
+ <div id="Container">
+   <div>test</div>
+    <b>Country</b>
+    <input type="text" id="txtCountry" value="England" />
+ </div>
+ <button id="btnClick">Click</button>
+ </body>
+ </html>
+ <script>
+  $(function () {
+  $("#btnClick").click(function () {
+    alert("HTML: " + $("#Container").html());
+    alert("Text: " + $("#Container").text());
+    alert("Value: " + $("#txtCountry").val());
+  });
+});
+ </script>
+
+ 

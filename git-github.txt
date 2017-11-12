@@ -1,0 +1,29 @@
+GitHub is an version control system tools.
+Git is a local repository which store code from local machine using (git commit).
+GitHub is a Central repository server, (push,pull)
+
+What is a Repository?
+ A directory or storage space where your projects can live.It can be local to a folder on your computer, or it can be storage space on GitHub or another online host. You can keep code files, image files, you name it, inside a repository.
+ 
+ Two types of repository
+ 1. Central Repository
+ 2. Local Repository
+ 
+ GitHub projects root .git folder inside your projects root.
+ 
+ 
+ Create Repositories
+  1. git init
+ Making Changes
+  1. git status
+  2. git add
+  3. git commit
+ Parallel Development
+  1. branch
+  2. merge
+  3. rebase
+ Syncing Repositories
+  1. add origin
+  2. push
+  3. pull  
+ 
