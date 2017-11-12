@@ -28,8 +28,8 @@ What is a Repository?
   3. pull  
  
  
- HISTORY
- --------
+ LIST OF HISTORY
+ --------------
      1  git init
     2  git remote origin "https://github.com/santhoshkumarjs/Mylibrary.git"
     3  git remote add origin "https://github.com/santhoshkumarjs/Mylibrary.git"
