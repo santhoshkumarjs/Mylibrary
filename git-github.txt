@@ -27,3 +27,56 @@ What is a Repository?
   2. push
   3. pull  
  
+ 
+ HISTORY
+ --------
+     1  git init
+    2  git remote origin "https://github.com/santhoshkumarjs/Mylibrary.git"
+    3  git remote add origin "https://github.com/santhoshkumarjs/Mylibrary.git"
+    4  git pull
+    5  git pull origin
+    6  echo "# Mylibrary" >> README.md
+    7  git status
+    8  git add -A
+    9  git status
+   10  git commit -m "first commit"
+   11  git push -u origin master
+   12  history
+   13  ls
+   14  git status
+   15  git add -A
+   16  git commit -m "second commit"
+   17  git push -u origin master
+   18  git branch myfirstbranch
+   19  git chekout myfirstbranch
+   20  git checkout myfirstbranch
+   21  ls
+   22  echo "branch text" << branchfile.txt
+;
+
+text
+
+   23  ls
+   24  echo "branch text" >> branchfile.txt
+   25  ls
+   26  git status
+   27  git add -A
+   28  LS
+   29  git status
+   30  git commit -m "branch file commit"
+   31  git log
+   32  git checkout master
+   33  ls
+   34  git merge myfirstbranch
+   35  ls
+   36  git rebase myfirstbranch
+   37  ssh-keygen
+   38  cat /c/Users/santhosh/.ssh/id_rsa.pub
+   39  ssh -T git@github.com
+   40  git checkout firstbranch
+   41  git checkout myfirstbranch
+   42  git push origin myfirstbranch
+   43  git checkout master
+   44  git push
+   45  git status
+   46  history
